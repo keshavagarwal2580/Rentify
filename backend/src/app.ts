@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://rentify-kappa.vercel.app',
 }))
 
 app.use(express.json());
